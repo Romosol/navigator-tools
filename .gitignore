@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.spec
+.venv/
+venv/
+# Логи сессий и временные файлы шагов
+NavAdd/шаги_*.txt
+NavAdd/логи_*.txt
+NavConfirm/LogSteps_*.txt
+NavConfirm/LogKids_*.txt
+# Конфигурации с паролями и персональные данные
+**/config.json
+NavAdd/list.xlsx
+*.xlsx
+*.xls
